@@ -4,8 +4,8 @@ import PlayerCircle from "../../img/Circle.png";
 
 const playerCharacter = ({ player }) => {
   const players = [];
-  players["x"] = PlayerX;
-  players["o"] = PlayerCircle;
+  players["X"] = PlayerX;
+  players["O"] = PlayerCircle;
 
   return (
     <button className="player-character">

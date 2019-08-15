@@ -12,3 +12,23 @@
   padding: 16px;
   margin-bottom: var(--spacing-big);
 }
+
+.app > .events-hash {
+  display: block;
+  width: 130px;
+  height: 30px;
+  font-family: inherit;
+  font-size: var(--size-small);
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  color: var(--color-negative);
+  margin: 0 auto var(--spacing-md);
+  transition: transform 120ms linear;
+  transform: scale(0);
+}
+
+.app > .events-hash.-show {
+  transform: scale(1);
+}

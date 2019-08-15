@@ -7,31 +7,31 @@ const GameTable = () => (
   <SectionHash>
     <ul className="game-table">
       <li className="items">
-        <Player player="x" />
+        <Player player="X" />
       </li>
       <li className="items">
-        <Player player="o" />
+        <Player player="O" />
       </li>
       <li className="items">
-        <Player player="o" />
+        <Player player="O" />
       </li>
       <li className="items">
-        <Player player="x" />
+        <Player player="X" />
       </li>
       <li className="items">
-        <Player player="x" />
+        <Player player="X" />
       </li>
       <li className="items">
-        <Player player="o" />
+        <Player player="O" />
       </li>
       <li className="items">
-        <Player player="o" />
+        <Player player="O" />
       </li>
       <li className="items">
-        <Player player="o" />
+        <Player player="O" />
       </li>
       <li className="items">
-        <Player player="x" />
+        <Player player="X" />
       </li>
     </ul>
   </SectionHash>

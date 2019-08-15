@@ -11,6 +11,7 @@
   align-items: center;
   position: relative;
   cursor: pointer;
+  margin-bottom: var(--spacing-big);
 }
 
 .show-events > .label-hash::before {
