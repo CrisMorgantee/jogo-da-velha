@@ -1,37 +1,38 @@
 import React from "react";
 import "./style.css";
-import Player from "../../objects/player-character";
+
 import SectionHash from "../../objects/section-hash";
+import Player from "../../objects/player-character";
 
 const GameTable = () => (
   <SectionHash>
     <ul className="game-table">
       <li className="items">
-        <Player player="X" />
+        <Player />
       </li>
       <li className="items">
-        <Player player="O" />
+        <Player />
       </li>
       <li className="items">
-        <Player player="O" />
+        <Player />
       </li>
       <li className="items">
-        <Player player="X" />
+        <Player />
       </li>
       <li className="items">
-        <Player player="X" />
+        <Player />
       </li>
       <li className="items">
-        <Player player="O" />
+        <Player />
       </li>
       <li className="items">
-        <Player player="O" />
+        <Player />
       </li>
       <li className="items">
-        <Player player="O" />
+        <Player />
       </li>
       <li className="items">
-        <Player player="X" />
+        <Player />
       </li>
     </ul>
   </SectionHash>

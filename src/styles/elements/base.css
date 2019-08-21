@@ -9,6 +9,7 @@ body {
   background-color: var(--color-second);
   font-family: "Montserrat", sans-serif;
   position: relative;
+  color: var(--color-negative);
 }
 
 button {

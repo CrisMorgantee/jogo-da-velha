@@ -1,0 +1,9 @@
+.history-game > .action {
+  margin-bottom: var(--spacing-md);
+}
+
+.history-game .output-player {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 130px;
+}

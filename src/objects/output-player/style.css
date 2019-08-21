@@ -1,0 +1,10 @@
+.output-player {
+  background-color: var(--color-zero);
+  padding: var(--spacing-very-small) var(--spacing-md);
+  border-radius: 2em; /* a medida `em` pega a altura do tamanho da fonte */
+}
+
+.output-player.-end {
+  background-color: var(--color-tenth);
+  text-transform: uppercase;
+}

@@ -1,12 +1,12 @@
 .show-events {
   text-align: center;
   font-family: inherit;
-  color: var(--color-fourth);
-  font-size: 14px;
-  font-weight: bold;
 }
 
 .show-events > .label-hash {
+  color: var(--color-fourth);
+  font-size: 14px;
+  font-weight: bold;
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -44,4 +44,12 @@
 
 .show-events > .input-hash:checked + .label-hash::after {
   transform: scale(0.5);
+}
+
+.show-events > .history-game {
+  display: none;
+}
+
+.show-events > .input-hash:checked ~ .history-game {
+  display: block;
 }
